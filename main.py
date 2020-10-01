@@ -5,5 +5,11 @@ print("Guessing Game")
 
 number = int(input("Please choose a number between 1 and 10:"))
 
-while int !=6:
+if (number == 6):
   print("You guessed correctly!")
+
+
+while number >6 :
+  print("You guessed too high!")
+else number <6 :
+  print("You guessed too low!")
